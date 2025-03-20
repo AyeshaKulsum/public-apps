@@ -1,0 +1,22 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "icon.svg",
+          "modalSize": "lg"
+        }
+      },
+      "functions": {
+        "getXlsxData": {
+          "timeout": 5
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://(.*).surveysparrow.com(.*)"
+  ]
+}

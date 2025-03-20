@@ -1,0 +1,29 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "response_import": {
+          "url": "index.html",
+          "icon": "icon.svg"
+        }
+      },
+      "functions": {
+        "csvMappingHandler": {
+          "timeout": 10
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://(.*).surveysparrow.com(.*)"
+  ],
+  "dependencies": {
+    "google-libphonenumber": "3.2.33",
+    "axios": "1.6.8"
+  },
+  "engines": {
+    "node": "18.16.0",
+    "ssdk": "0.3.4"
+  }
+}

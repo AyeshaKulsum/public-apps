@@ -1,0 +1,10 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+    }
+  },
+  "whitelisted-domains": [
+    "https://(.*).surveysparrow.com(.*)"
+  ]
+}

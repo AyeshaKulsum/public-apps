@@ -1,0 +1,125 @@
+{
+  "survey":{
+    "name":"Sathish",
+    "type":"ClassicForm"
+  },
+    "Question 1":
+    {
+        "question":"Enter your name",
+        "type":"TextInput" 
+    },
+    "Question 2":
+    {
+        "question":"Upload your image",
+        "type":"FileInput"
+      
+    },
+    "Question 3":
+    {
+        "question":"Enter opinion",
+        "type":"MultiChoice",
+        "options":[{"text":"CSE"},{"text":"BME"},{"text":"EEE"}]
+    },
+    "Question 4":
+    {
+        "question":"Enter rating",
+        "type":"OpinionScale"
+    },
+    "Question 5":
+    {
+        "question":"Enter Department",
+        "type":"Dropdown",
+        "options":[{"text":"CSE"},{"text":"BME"},{"text":"EEE"}]
+    },
+    "Question 6":
+    {
+        "question":"Feedback",
+        "type":"Slider" 
+    },
+    "Question 7":
+    {
+        "question":"Enter Any",
+        "type":"BipolarMatrix",
+        "column":[{"name":"Poor"},{"name":"Average"},{"name":"Good"},{"name":"Excellent"}] ,
+        "row":[{"left_text":"A","right_text":"B"},{"left_text":"C","right_text":"D"}]
+    },
+    "Question 8":
+    {
+        "question":"Opening Camera",
+        "type":"CameraInput"    
+    },
+    "Question 9":
+    {
+        "question":"Agreement",
+        "type":"Consent"    
+    },
+    "Question 10":
+    {
+        "question":"Enter URL",
+        "type":"URLInput"    
+    },
+    "Question 11":
+    {
+        "question":"Enter Yes or No",
+        "type":"YesNo"    
+    },
+    "Question 12":
+    {
+        "question":"Signature",
+        "type":"Signature"
+    },
+   
+    "Question 13":
+    {
+        "question":"rating question",
+        "type":"Rating" 
+      
+    },
+    "Question 14":
+    {
+        "question":"Message question",
+        "type":"Message" 
+      
+    },
+    "Question 15":
+    {
+        "question":"Number Input  question",
+        "type":"NumberInput" 
+      
+    },
+    "Question 16":
+    {
+        "question":"Email Input  question",
+        "type":"EmailInput" 
+      
+    },
+    "Question 17":
+    {
+        "question":"Rank Order  question",
+        "type":"RankOrder" ,
+        "options":[{"text":"CSE"},{"text":"BME"},{"text":"EEE"}]
+      
+    },
+    "Question 18":
+    {
+        "question":"phone number question",
+        "type":"PhoneNumber"   
+    },
+    "Question 19":
+    {
+        "question":"Enter Date",
+        "type":"DateTime"   
+    },
+    "Question 20":
+    {
+        "question":"sample",
+        "type":"Matrix",
+        "column":[{"name":"CSE"},{"name":"BME"},{"name":"EEE"}],
+        "row":[{"left_text":"CSE"},{"left_text":"BME"},{"left_text":"EEE"}]
+    }
+    
+}
+
+
+
+

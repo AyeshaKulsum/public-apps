@@ -1,0 +1,47 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "new_survey_shares": {
+          "url": "index.html",
+          "icon": "icon.svg"
+        },
+        "contact_import": {
+          "url": "index.html",
+          "icon": "icon.svg",
+          "modalSize": "md"
+        }
+      },
+      "events": {
+        "onScheduledEvent": {
+          "handler": "onScheduledEvent"
+        },
+        "onSubmissionComplete": {
+          "handler": "onSubmissionComplete"
+        },
+        "onCXChannelUpdate": {
+          "handler": "onCXChannelUpdate"
+        },
+        "onChannelUpdate": {
+          "handler": "onChannelUpdate"
+        }
+      },
+      "functions": {
+        "createSchedule": {
+          "timeout": 5
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "uuid": "10.0.0"
+  },
+  "whitelisted-domains": [
+    "https://(.*).surveysparrow.com(.*)"
+  ],
+  "engines": {
+    "node": "18.16.0",
+    "ssdk": "0.3.5"
+  }
+}

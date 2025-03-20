@@ -1,0 +1,11 @@
+{  	
+"client_id": "cb890bc06b8ffd3d3142d3b2b83785ee",
+"client_secret":"9b021224a8ee5053e8e2bbae1bdafb7c",
+"authorize_url":"https://auth.monday.com/oauth2/authorize",
+"token_url":"https://auth.monday.com/oauth2/token",
+"options":{
+  "response_type":"code",
+  "prompt":"consent",
+  "scope":["boards:read boards:write docs:read docs:write account:read users:read"]
+  }
+}

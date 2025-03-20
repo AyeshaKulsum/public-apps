@@ -1,0 +1,20 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "response_details": {
+          "url": "index.html",
+          "icon": "icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://www.googleapis.com/calendar/v3/calendars(.*)"
+  ],
+  "engines": {
+    "node": "18.16.0",
+    "ssdk": "0.1.5"
+  }
+}

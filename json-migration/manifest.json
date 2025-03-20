@@ -1,0 +1,28 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "icon.svg"
+        }
+      },
+      "functions": {
+        "surveyConverter": {
+          "timeout": 10
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://api.surveysparrow.com(.*)"
+  ],
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
+  },
+  "engines": {
+    "node": "18.17.1",
+    "ssdk": "0.1.5"
+  }
+}

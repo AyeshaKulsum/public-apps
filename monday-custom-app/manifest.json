@@ -1,0 +1,32 @@
+{
+  "platform-version": "1.0",
+  "product": {
+    "surveysparrow": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "icon.svg",
+          "modalSize": "lg"
+        }
+      },
+      "events": {
+        "onContactUpdate": {
+          "handler": "onContactUpdate"
+        }
+      },
+      "functions": {
+        "saveEventMapping": {
+          "timeout": 20
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://(.*)surveysparrow.com(.*)",
+    "https://(.*).monday.com(.*)"
+  ],
+  "engines": {
+    "node": "18.16.0",
+    "ssdk": "0.2.2"
+  }
+}
